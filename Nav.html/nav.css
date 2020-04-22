@@ -1,0 +1,30 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+a{
+    font-size: 20px;
+    display: inline-block;
+    text-decoration: none;
+    padding: 15px 20px;
+    margin-right: 30px;
+    
+}
+
+nav{
+    padding: 20px;
+    text-align: right;
+    background-color: aqua;
+    font-style: italic;
+}
+a:link{
+    color: blue;
+}
+
+a:hover{
+    text-decoration: underline;
+    color: deeppink;
+}
+a:active{
+    color: black;
+}
+ 

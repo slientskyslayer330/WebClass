@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign up</title>
+    <link rel="stylesheet" href="form.css" type="text/css">
+</head>
+<body>
+    <form action="#" method="POST"enctype="multipart/form-data">
+        <fieldset>
+            <legend>Sign up here!</legend>
+           
+                <label for="username" class="categories">Username:</label>
+            <input type="text" class="data"required id="username" name="username" autofocus/>
+             <br>
+            
+                <label for="password" class="categories">Password:</label>
+                <input type="password"class="data" name="password" id="password" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" title="At least 8 characters,one lowercase,uppercase letter and a number"/>
+             <br>
+
+
+            <label for="email" class="categories">Email:</label>
+            <input type="email" name="email" id="email" placeholder="example@domain.com" class="data"/> <br>
+
+           
+
+            <label for="dob" class="categories">Date of birth:</label>
+            <input type="date" name="dob" id="dob" class="data"/><br>
+
+            <label for="phone" class="categories">Phone:</label>
+            <input type="tel" name="phone" id="phone"class="data" ><br>
+
+            <label for="gender">Gender:</label>
+            <input type="radio" name="gender" id="male" value="M" checked><label for="male">Male</label>
+            <input type="radio" name="gender" id="female" value="F"><label for="female">Female</label><br>
+
+            <label for="country">Country:</label>
+            <select name="country" id="country">
+                <option value="Myanmar" selected>Myanmar</option>
+                <option value="China">China</option>
+                <option value="Singapore">Singapore</option>
+            </select><br>
+
+
+            <label for="profile">Profile:</label>
+            <input type="file" name="profile" id="profile" accept="image/png, image/jpeg"><br>
+
+             <label for="address" id="address">Address:</label><br>
+            <textarea name="address" cols="30" rows="4" placeholder="Enter your address.."></textarea>
+            <br>
+
+
+            <input type="submit" value="Sign up" id="submit"> 
+            <input type="reset" value="cancel" id="reset">
+
+        </fieldset>
+    </form>
+</body>
+</html>

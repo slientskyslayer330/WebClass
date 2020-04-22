@@ -1,0 +1,65 @@
+fieldset{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    font-style: oblique;
+    
+    
+    
+}
+form{
+    margin: 30px;
+    background-color: lightgoldenrodyellow;
+    box-shadow: 3px 3px 9px grey;
+    padding: 30px;
+    width: 600px;
+
+}
+form input, form label, form select, form textarea{
+    margin-top: 30px;
+}
+.categories{
+    position: absolute;
+}
+.data{
+    position: relative;
+    left: 150px;
+    width: 160px;
+    height: 20px;
+}
+form input[type='submit'], form input[type='reset']{
+    position: static;
+}
+#address{
+    display: inline-block;
+}
+
+
+legend{
+    padding: 0 20px;
+    background-color: rgb(39, 195, 247);
+    text-align: center;
+    border: 1px solid rgb(39, 195, 247);
+    border-radius: 10px;
+}
+#submit{
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 3px 20px;
+    outline: none;
+}
+#reset{
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 3px 20px;
+    outline: none;
+}
+#submit:hover{
+    cursor: pointer;
+    background-color: rgb(39, 195, 247);
+    color: white;
+}
+#reset:hover{
+    cursor: pointer;
+    background-color: rgb(233, 17, 17);
+    color: white;
+}
