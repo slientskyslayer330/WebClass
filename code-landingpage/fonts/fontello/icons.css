@@ -1,0 +1,6 @@
+@font-face {
+font-family: 'Icons';
+font-style: normal;
+font-weight: normal;
+src: local('icons'), url('icons.woff') format('woff');
+}

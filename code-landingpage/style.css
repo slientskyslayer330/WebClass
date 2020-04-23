@@ -1,0 +1,352 @@
+@import url('fonts/Poppins/poppins.css');
+@import url('fonts/fontello/icons.css');
+
+body {
+   margin: 0;
+   padding: 0;
+   overflow-x: hidden;
+   max-width: 100%;
+   overflow-y: scroll;
+   font-family: 'Poppins Regular', sans-serif;
+   font-size: 11px;
+   line-height: 200%;
+   padding: 0 60px;
+}
+
+header{
+   padding: 15px 0;
+}
+
+h1 {
+   text-transform: uppercase;
+   font-weight: normal;
+   font-size: 18px;
+}
+
+#logo, h1, nav, nav ul li, #search-bar, #search {
+   display: inline-block;
+}
+
+nav ul li a{
+   text-decoration: none;
+   color: #3F3D56;
+   font-size: 13px;
+   padding: 0 15px;
+}
+
+nav ul li:first-of-type {
+   margin-left: 30px;   
+}
+
+nav ul li a:hover {
+   background: #E52127;
+   border-radius: 100px;
+   padding: 3px 15px;
+   color: #eaeaea;
+}
+
+#search-bar {
+   float: right;
+   margin-top: 20px;
+}
+
+#search, #email {
+   width: 200px;
+   padding: 5px 15px;
+   border: 1px solid #3F3D56;
+   border-radius: 50px;
+}
+
+#search:focus {
+   outline: none;
+}
+
+#search::placeholder {
+   font-family: 'Icons';
+}
+
+/* --------------------------------------------------- */
+
+#home {
+   padding: 100px;
+   height: 340px;
+}
+
+#home picture img {
+   width: 40%;
+   position: absolute;
+}
+
+h2 {
+   font-family: 'Poppins Black', sans-serif;
+   font-size: 24px;
+   color: #E52127;
+   text-transform: capitalize;
+}
+
+
+#home article {
+   position: relative;
+   top: 80px;
+   left: 45%;
+   width: 50%;
+}
+
+button, #subscribe{
+   padding: 5px 20px;
+   border: 0;
+   background-color: #3F3D56;
+   color: #eaeaea;
+   border-radius: 50px;
+   font-family: 'Poppins Semibold', sans-serif;
+   cursor: pointer;
+}
+
+#home article p, #home article button {
+   margin-left: 120px;
+}
+
+#home-circle1 {
+   position: absolute;
+   top: -100px;
+   left: -50px;
+   width: 33%;
+   z-index: -99999;
+}
+
+.md-circle {
+   position: absolute;
+   width: 17% !important;
+   z-index: -9999;
+}
+
+#home-circle2 {
+   right: -90px;
+}
+
+hr:nth-of-type(2n-1) {
+   width: 60%;
+   float: right;
+   border: 0;
+   border-bottom: 1px solid #3F3D56;
+}
+
+hr:nth-of-type(2n) {
+   width: 60%;
+   float: left;
+   border: 0;
+   border-bottom: 1px solid #3F3D56;
+}
+
+#hr1 {
+   top: 400px;
+}
+
+/* -------------------------------------------------------- */
+#frontend, #backend, #gallery, #ltc, #contact-us {
+   margin-top: 110px;
+}
+
+#frontend, #backend {
+   margin-bottom: 40px;
+}
+
+#frontend article, #frontend picture, #backend article, #backend picture {
+   width:49%;
+   display: inline-block;
+   vertical-align: middle;
+}
+
+#frontend picture img, #backend picture img {
+   width: 97%;
+}
+
+#frontend article {
+   text-align: right;
+}
+
+#frontend article h2 {
+   margin-right: 50px;
+}
+
+#frontend article p, #frontend article button, #backend article p, #backend article button {
+   margin: 0 120px 25px 120px;
+}
+
+.sm-circle {
+   position: absolute;
+   width: 12% !important;
+   z-index: -999999;
+}
+
+#frontend-circle {
+   left: 270px;
+   top: 720px;
+}
+/* ------------------------------------------------ */
+
+#backend article h2 {
+   margin-left: 40px;
+}
+
+#backend-circle {
+   left: 43%;
+   top: 1200px;
+}
+/* ------------------------------------------------------ */
+
+#gallery .container, #contact-us .container {
+   text-align: center;
+}
+
+#gallery-heading {
+   margin-bottom: 40px;
+}
+
+#gallery .wrapper {
+   height: 687px;
+   overflow: hidden;
+   margin-bottom: 60px;
+}
+
+#gallery .col {
+   width: 20%;
+   margin: 0 20px;
+   display: inline-block;
+   vertical-align: top;
+}
+
+#gallery .col picture {
+   margin-top: 30px;
+}
+
+#gallery .col picture img {
+   display: inline-block;
+   width: 100%;
+   margin-top: 30px;
+}
+
+.tiny-circle {
+   width: 6% !important;
+   position: absolute;
+   z-index: -99999;
+}
+
+#gallery-circle {
+   top: 1640px;
+}
+
+/* ----------------------------------------- */
+
+#ltc .container {
+   text-align: center;
+}
+
+#ltc .col, #contact-us .col {
+   width: 30%;
+   margin: 10px;
+   display: inline-block;
+   vertical-align: middle;
+}
+
+#ltc #music img {
+   width: 35%;
+   float: left;
+}
+
+#ltc #learn-to-code img, #contact-us .col img  {
+   width: 70%;
+}
+
+#ltc iframe {
+   border: 1px solid #3F3D56;
+}
+
+#ltc article {
+   text-align: right;
+}
+
+#ltc article p {
+   margin-right: 40px;
+}
+
+#ltc article p span {
+   text-transform: uppercase;
+   font-family: 'Poppins Semibold', sans-serif;
+}
+
+#ltc-circle {
+   top: 2540px;
+   left: 42%;
+}
+/* ------------------------------------------- */
+#contact-us {
+   margin-bottom: 50px;
+}
+
+#contact-us .col p {
+   text-align: left;
+   font-size: 16px;
+}
+
+#contact-us .col p span {
+   font-family: 'Icons';
+}
+
+#contact-us .col p span a{
+   text-decoration: none;
+   color: #3F3D56;
+   padding: 10px;
+}
+
+#contact-us .col p span a:hover {
+   color: #E52127;
+}
+
+#contact-form {
+   text-align: center;
+}
+
+#contact-circle1 {
+   top: 2920px;
+   left: -50px;
+}
+
+#contact-circle2 {
+   top: 2900px;
+   left: 51%;
+}
+
+#email {
+   width: 170px;
+   margin-right: 40px;
+}
+
+#subscribe {
+   background-color: #E52127;
+}
+/* ---------------------------------------------- */
+footer {
+   width: 100%;
+   position: absolute;
+   left: 0;
+   bottom: -999;
+   background-color: #3F3D56;
+   color: #eaeaea;
+   padding: 25px;
+}
+
+footer #copy {
+   float: left;
+   margin-left: 60px;
+}
+
+footer #madeby {
+   float: right;
+   margin-right: 60px;
+}
+
+footer #madeby span {
+   font-family: 'Icons';
+   font-size: 120%;
+}
