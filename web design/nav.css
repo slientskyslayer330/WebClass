@@ -1,0 +1,235 @@
+@import url('fontello/css/myfont.css');
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    max-width: 100%;
+    font-size: 16px;
+    line-height: 200%;
+    padding: 0 50px;
+}
+header{
+    padding: 15px 0;
+    /* background-color: aqua; */
+}
+#welcome, nav, nav ul li, #search-bar, #search{
+    display: inline-block;
+}
+nav ul li a{
+    font-size: 20px;
+    display: inline-block;
+    text-decoration: none;
+    padding: 4px 20px;
+    
+}
+
+nav{
+    font-style: italic;
+    
+}
+
+
+nav ul li a:link{
+    color: blue;
+}
+nav ul li a:hover{
+    border-radius: 100px;
+    background-color: deeppink;
+    color: azure;
+    
+}
+
+nav ul li a:active{
+    color: black;
+}
+#search-bar{
+    float: right;
+    margin-top: 10px;
+}
+#search{
+    width: 200px;
+    padding: 5px 10px;
+    border: 1px solid #3f3d56;
+    border-radius: 50px;
+}
+#search:focus{
+    outline: none;
+}
+#search[placeholder]{
+    font-family: 'myfont';
+}
+/* ------------------------------------- */
+#home{
+    padding: 100px;
+    height: 340px;
+    /* background-color: lightblue; */
+}
+#home picture img{
+    width: 40%;
+    position: absolute;
+    right: 40%;
+    
+}
+article h1{
+    font-size: 60px;
+    font-weight: bold;
+    color: #D62246;
+    text-transform: capitalize;
+    margin-left: 30px;
+    line-height: 100%;
+}
+#home article{
+    position: relative;
+    top: 50px;
+    left: 60%;
+    width: 50%;
+}
+#home p,#home button{
+    margin-left: 100px;
+}
+#home button{
+    padding: 5px 20px;
+   border: 0;
+   background-color: #3F3D56;
+   color: #eaeaea;
+   border-radius: 50px;
+   cursor: pointer;
+   outline: none;
+}
+#home-circle1{
+    position: absolute;
+    left: -100px;
+    top: -100px;
+    width: 30%;
+}
+#home-circle2{
+    right: -90px;
+    top: 300px;
+}
+.circle{
+    position: absolute;
+    width: 15%;
+    z-index: -9999;
+}
+hr:nth-of-type(2n-1){
+    float: right;
+    width: 70%;
+    margin-top: 300px;
+}
+hr:nth-of-type(2n){
+    float: left;
+    width: 70%;
+    /* margin-top: 100px; */
+}
+hr{
+    border: 0;
+    border-bottom: 1px solid #D62246;
+}
+/* ----------------------------------------------------- */
+#learn{
+    margin-top: 400px;
+    /* background-color: lightblue; */
+}
+#learn picture img{
+    /* position: absolute; */
+    width: 30%;
+    right: 40%;
+    margin-top: 60px;
+}
+#learn h2{
+    text-align: center;
+    font-size: 50px;
+    font-weight: bold;
+    color: #D62246;
+}
+#java{
+    margin-bottom: 80px;
+    
+}
+#learn-circle{
+    right: 450px;
+    top: 970px;
+    width: 12%;
+    
+}
+
+/* ----------------------------------------- */
+#project{
+    margin-top: 150px;
+}
+#project picture img{
+    width: 50%;
+    left: 100%;
+    float: right;
+}
+#project article h3{
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+    color: #D62246;
+    margin-left: 50px;
+    line-height: 100%;
+}
+#project article{
+    position: relative;
+    top: 200px;
+    width: 50%;
+}
+#project-circle{
+    left: -200px;
+    top: 2300px;
+    width: 40%;
+}
+/* ----------------------------------- */
+footer{
+    margin-top: 900px;
+    width: 100%;
+    /* position: absolute; */
+    bottom: -999;
+    background-color:  #3F3D56;
+    color: #eaeaea;
+    padding: 5px;
+}
+footer p{
+    font-size: 20px;
+    margin-left: 20px;
+    
+}
+footer a img{
+    padding: 0 10px;
+    bottom: -10px;
+    position: relative;
+}
+footer #copy{
+    float: right;
+    margin-top: 20px;
+    margin-right: 20px;
+}
+#fixed{
+    position: fixed;
+   padding: 10px 20px;
+   background-color: #000;
+   color: #fff;
+   bottom: 80px;
+   right: 0px;
+   z-index: 0;
+}
+#fixed a{
+    color: #eaeaea;
+}
+#fixed a:hover{
+    color: #247ba0;
+}
+#fixed a:active{
+    color: #D62246;
+}
+
+
+
+
+
+
+
+

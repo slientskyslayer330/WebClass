@@ -1,0 +1,9 @@
+
+.icon-vcard:before { content: '\31'; } /* '1' */
+.icon-user-add:before { content: '\32'; } /* '2' */
+.icon-ok-circle:before { content: '\33'; } /* '3' */
+.icon-cancel-circle:before { content: '\34'; } /* '4' */
+.icon-thumbs-up:before { content: '\35'; } /* '5' */
+.icon-thumbs-down:before { content: '\36'; } /* '6' */
+.icon-search:before { content: '\37'; } /* '7' */
+.icon-mail:before { content: '\38'; } /* '8' */
