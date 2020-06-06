@@ -1,0 +1,129 @@
+
+   @font-face {
+        font-family: myFirstFont;
+        src: url(fonts/harabara.otf);
+      }
+
+body{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: myFirstFont;
+    background: #134074;
+}
+.title{
+    border-bottom-left-radius:10%;
+    border-bottom-right-radius:10%;
+
+    width: 100%;
+    color: #fff;
+    position: absolute;
+    top: 0;
+    background:#0D1631;
+    display: inline-flex;
+ align-items: center;
+ justify-content: center;
+}
+
+.title p{
+    font-size: 20px;
+    letter-spacing: 1px;
+
+}
+
+.title span{
+    position: absolute;
+    top: 20px;
+    right: 40px;
+}
+.title span a{
+text-decoration: none;
+color: white;
+font-weight: lighter;
+}
+.table-box{
+
+    width: 1200px;
+    height: 500px;
+    overflow-y: scroll;
+    box-shadow: 0 10px 100px rgba(0,0,0,0.5);
+    background : #FAE789;
+}
+
+table{
+color: #00171F;
+width: 100%;
+}
+
+table, th, td {
+    
+    border: 1px solid #323031;
+    border-collapse: collapse;
+    text-align: left;
+}
+
+ #studentname {
+    
+    width: 400px;
+
+}
+th{ 
+    position: sticky;
+    top: -1px;
+    left: 0px;
+    background-color: #F8E16C;
+    box-sizing: border-box;
+}
+#studentroll{
+
+    width: 200px;
+}
+#address{
+
+    width: 600px;
+}
+#edit{
+    margin: 0;
+    padding: 0;
+    width: 100px;
+}
+#del{
+    margin: 0;
+    padding: 0;
+    width: 100px;
+}
+
+tr th:nth-child(1){
+
+    width: 60px;
+    text-align: center;
+    background-color: #F8DF63;
+}
+
+tr td:nth-child(1){
+    background: #F8E16C;
+    color: #00171F;
+    text-align: center;
+}
+#EDIT{
+    color: #fff;
+    letter-spacing: 0.5px;
+    padding: 5px;
+    border-radius: 30%;
+    background-color: #827CDF;
+text-decoration: none;
+border: 1px solid #827CDF;
+}
+
+#DEL{
+    color: #fff;
+    letter-spacing: 0.5px;
+    padding: 5px;
+    border-radius: 30%;
+    background-color: #FF4E33;
+text-decoration: none;
+border: 1px solid #FF4E33;
+}
